@@ -1,4 +1,4 @@
-# getpass
+# <img src="logo/logo.ico" width="32" height="32"> getpass
  Getpass is open source cross-platform stateless password manager (generator). 
  No internet connection or other type of communication is required.
 # platforms
@@ -14,7 +14,8 @@
  * Your app preferences could be imported and exported (as a string that is encrypted with [aes](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
  
 schematic representation:
-(alg.png)
+![](alg/alg.png?raw=true)
+
 # technology stack
  * [React + ts](https://reactjs.org/) for web service
  * [Vue + js](https://vuejs.org/) for browser extension
