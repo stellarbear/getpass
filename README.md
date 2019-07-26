@@ -123,6 +123,12 @@ Advantages:
 Disadvantages:  
 * It takes some time to change your old passwords to Getpass ones (this is every password manager issue, to be honest)  
 * Speaking of local policies when you are forced to change your password in some period of time, we can't say that counter solution is an elegant way to do this, but we think that this is the least inconvenient way to implement this functionality
+
+**12. What if my password for a particular website was hacked?**    
+
+This is one of the cases where you can use a Counter parameter by increasing its value from the default “0”. Remember that leaked password (even if the attacker somehow managed to find that you are using Getpass with specific Login and Website) does not mean that your Secret Keyword was leaked too. It is practically impossible to brute force it based on the obtained information. 
+
+The other way to overcome this issue is to alter/change your website name: for example, use "gmail_new", "gmail_after-hacked", "gmail.com" if your previous website value was "gmail".
     
 # technology stack
  * [React + ts](https://reactjs.org/) for web service
