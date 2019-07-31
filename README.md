@@ -5,7 +5,8 @@
  * [[repo](https://github.com/stellarbear/getpass-spa)] Web service (for quick access): [getpass.io]()
  * [[repo](https://github.com/stellarbear/getpass-extension)] Browser extension: [chrome](), [safari]()
  * [[repo](https://github.com/stellarbear/getpass-mobile)] Mobile version: [android](), [ios]()
- * TBD: Desktop version
+ * [[repo](https://github.com/stellarbear/getpass-desktop)] Desktop version: [Windows](), [Linux](), [MacOS]()
+ 
 # how does it work
 
 **1.** Password is generated based on the following input:
@@ -134,7 +135,7 @@ The other way to overcome this issue is to alter/change your website name: for e
  * [React + ts](https://reactjs.org/) for web service
  * [Vue + js](https://vuejs.org/) for browser extension
  * [Flutter + dart](https://flutter.dev/) for mobile version
- * [Avalonia (WPF)](http://avaloniaui.net/) for desktop version (planning)
+ * [Electron](http://electronjs.org/) for desktop version (planning to migrate to flutter)
  
  Additional libraries:
  * [jdenticon](https://jdenticon.com/)
