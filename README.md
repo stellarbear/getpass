@@ -2,7 +2,7 @@
  Getpass is open source cross-platform stateless password manager (generator). 
  No internet connection or other type of communication is required.
 # platforms
- * [[repo](https://github.com/stellarbear/getpass-spa)] Web service (for quick access): [getpass.io]()
+ * [[repo](https://github.com/stellarbear/getpass-spa)] Web service (for quick access): [getpass.io](https://getpass.io)
  * [[repo](https://github.com/stellarbear/getpass-extension)] Browser extension: [chrome](), [safari]()
  * [[repo](https://github.com/stellarbear/getpass-mobile)] Mobile version: [android](), [ios]()
  * [[repo](https://github.com/stellarbear/getpass-desktop)] Desktop version: [Windows](), [Linux](), [MacOS]()
