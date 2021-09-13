@@ -2,7 +2,7 @@
  Getpass is open source cross-platform stateless password manager (generator). 
  No internet connection or other type of communication is required.
 # platforms
- * [[repo](https://github.com/stellarbear/getpass-spa)] Web service (for quick access): [getpass.io](https://getpass.io)
+ * [[repo](https://github.com/stellarbear/getpass-spa)] Web service (for quick access): [getpass.work](https://getpass.work)
  * [[repo](https://github.com/stellarbear/getpass-extension)] Browser extension: [chrome](), [safari]()
  * [[repo](https://github.com/stellarbear/getpass-mobile)] Mobile version: [android](), [ios]()
  * [[repo](https://github.com/stellarbear/getpass-desktop)] Desktop version: [Windows](), [Linux](), [MacOS]()
@@ -25,7 +25,7 @@ schematic representation:
 ![](alg/alg.png?raw=true)
 
 # faq
-Same information is located at [getpass.io](https://getpass.io/faq)  
+Same information is located at [getpass.work](https://getpass.work/faq)  
 
 **1. What is Getpass?**
 
@@ -95,9 +95,9 @@ Did you notice that secret keyword is obscured? If yes, than this is a way to vi
     
 **9. A note about security**
 
-First of all, Getpass (every platform or service implementation) doesn’t use ANY of your data. Not a single POST request to the hosting or arbitrary server is done. No internet required at all to work with our product. All of the computations are done on  client devices, such as desktop, mobile or web browser (both, extension and getpass.io website). The source code for every platform is available (links in the download section).  
+First of all, Getpass (every platform or service implementation) doesn’t use ANY of your data. Not a single POST request to the hosting or arbitrary server is done. No internet required at all to work with our product. All of the computations are done on  client devices, such as desktop, mobile or web browser (both, extension and getpass.work website). The source code for every platform is available (links in the download section).  
 
-Secondly, there is a small difference between how the local version (mobile, desktop, browser extension) and service version (website getpass.io) treat your data:  
+Secondly, there is a small difference between how the local version (mobile, desktop, browser extension) and service version (website getpass.work) treat your data:  
 * Service version doesn't store anything at all, but at the same time it doesn't provide some of the local version features. Main use case for the service version: one-time password generation or when you do not have access to any of your local app version.  
 * Local version stores locally login and website list (and all the preferences). We insist that login and website are not sensitive pieces of information and could be obtained easily (most of the time it is your phone number or mail address that are used as login, but you can use whatever you want inside this app). The reason that we store this is to give our users better experience when they need to generate a password – just 4 single taps to select login and website. This convenience does not reduce users safety, because, we give users the ability to obscure these values and / or you may use your own way to alias these pieces of data (for example, you may use “git repos” instead of “github” or “google mail” instead of ”gmail”)  
 
@@ -117,7 +117,7 @@ In a nutshell, Getpass uses a hash-like key derivation function (scrypt), that p
 Advantages:  
 * App generates different cryptographically strong passwords for every account you want to protect  
 * You don’t have to remember anything but your secret keyword  
-* Getpass service is available 24/7 on every device at getpass.io  
+* Getpass service is available 24/7 on every device at getpass.work
 * None of your data is transferred anywhere (not a single POST request to third party servers is send). You secret keyword is not stored (even locally)  
 * You don’t have to trust some proprietary software to protect your critical data (you can examine our source codes and help us to improve Getpass as well)  
 
